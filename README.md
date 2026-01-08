@@ -1,4 +1,4 @@
-# 🌍 Currency Converter
+## 🌍 Currency Converter
 
 A simple *Currency Converter* built with *HTML, CSS, and JavaScript*.  
 It allows users to convert between different currencies using the *Frankfurter API* and displays country flags using *FlagsAPI*.
@@ -14,12 +14,6 @@ It allows users to convert between different currencies using the *Frankfurter A
 - Displays *last updated date* from API  
 - Country flags auto-updated with selection (via *FlagsAPI*)  
 - Clean and responsive UI with background image  
-
----
-
-## 📁 Project Structure
-
-currency-converter/ │── index.html     # Main HTML structure │── style.css      # Styling │── app.js         # Functionality + API calls │── codes.js       # Currency code & country mapping │── Handshake.jpg  # Background image │── Currency_Converter_Output.png     # Project screenshot
 
 ---
 
