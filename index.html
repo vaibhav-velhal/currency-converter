@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/Logo.png">
     <title>Currency Converter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
@@ -13,13 +14,13 @@
         <form>
             <div class="amount">
                 <p>Enter Amount</p>
-                <input value="1" type="text">
+                <input min="1" type="number" placeholder="Enter an amount">
             </div>
             <div class="dropdown">
                 <div class="from">
                     <p>From</p>
                     <div class="selectContainer">
-                        <img src="https://flagsapi.com/US/shiny/64.png">
+                        <img src="https://flagsapi.com/US/shiny/64.png" alt="flag_Img">
                         <select name="from"></select>
                     </div>
                 </div>
@@ -27,7 +28,7 @@
                 <div class="to">
                     <p>To</p>
                     <div class="selectContainer">
-                        <img src="https://flagsapi.com/IN/shiny/64.png">
+                        <img src="https://flagsapi.com/IN/shiny/64.png" alt="flag_Img">
                         <select name="to"></select>
                     </div>
                 </div>
