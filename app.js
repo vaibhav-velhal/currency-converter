@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.frankfurter.app/latest";
+const BASE_URL = "https://api.frankfurter.dev/v1/latest";
 
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
@@ -40,6 +40,7 @@ const updateExchangeRate = async () =>{
 
     const URL = `${BASE_URL}?amount=${amtVal}&from=${fromCurr.value}&to=${toCurr.value}`;
     let response = await fetch(URL);
+    console.log(response);
     let data = await response.json();
     let rate = data.rates[toCurr.value];
     let lastUpdate = data.date;
